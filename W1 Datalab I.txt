@@ -1,0 +1,2 @@
+- What is the business problem? E.g., reducing readmissions, optimizing treatment plans, or identifying patient subgroups.
+- Who benefits from the analysis? E.g., hospital administrators, policymakers, or clinicians.
