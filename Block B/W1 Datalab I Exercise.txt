@@ -1,0 +1,12 @@
+Examining Dataset:
+
+Identifying Key Variables
+
+Potential Relevance:
+encounter_id, patient_nbr: These are done to identify each unique interaction between hosiptals and patients.
+race, gender, age, weight: These are biological identifiers which can show societal problems witch certain biological groups.
+admission_type_id, discharge_disposition_id, admission_source_id: IDs which can specify certain nuances of the stay/interaction using the other table ("IDS_mapping").
+time_in_hospital, payer_code, medical_specialty, num_lab_procedures, num_procedures, num_medications, number_outpatient, number_emergency, number_inpatient: These state the "facts" of the stay/interaction,
+diag_1, diag_2, diag_3, number_diagnoses, max_glu_serum, A1Cresult: These are either the diagnoses or medications/medical procedures carried out on the patient (or both).
+metformin, repaglinide, nateglinide, chlorpropamide, glimepiride, acetohexamide, glipizide, glyburide, tolbutamide, pioglitazone, rosiglitazone, acarbose, miglitol, troglitazone, tolazamide, examide, citoglipton, insulin, glyburide-metformin, glipizide-metformin, glimepiride-pioglitazone, metformin-rosiglitazone, metformin-pioglitazone, change, diabetesMed: these are either medicine or chemicals (or both) which cause certain issues and change in some chemicals. These can show whether some can be indicators of or caused by something, and can be used to check effectievness of treatments if something is identified.
+readmitted: This can be used to check the effectiveness of some treatments.
