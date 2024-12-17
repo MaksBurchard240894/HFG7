@@ -1,0 +1,11 @@
+## Authors
+
+The following people contributed at least one patch to this release (names are
+given in alphabetical order by last name). A total of 2 people
+contributed to this release. People with a * by their names contributed a
+patch for the first time for this release; 1 people contributed
+for the first time for this release.
+
+Thanks to everyone who contributed to this release!
+- Oscar Benjamin
+- Matt Wang*
