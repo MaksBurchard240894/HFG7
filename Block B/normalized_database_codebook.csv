@@ -1,0 +1,39 @@
+Column Name,Table,Description
+patient_nbr,patient,Unique identifier for a patient
+race,patient,Race of the patient
+gender,patient,"Gender of the patient (male, female, unknown/invalid)"
+age,patient,Age in 10-year intervals
+weight,patient,Weight of the patient in pounds
+admission_source_id,admission_source,Unique identifier for the admission source
+description,admission_source,"Description of the admission source (e.g., ER, referral, etc.)"
+admission_type_id,admission_type,Unique identifier for the admission type
+description,admission_type,"Description of the admission type (e.g., elective, urgent, etc.)"
+discharge_disposition_id,discharge_disposition,Unique identifier for the discharge disposition
+description,discharge_disposition,"Description of the discharge disposition (e.g., discharged to home, hospice, etc.)"
+encounter_id,encounter,Unique identifier for an encounter
+patient_nbr,encounter,Reference to the patient associated with the encounter
+admission_type_id,encounter,Reference to the admission type for the encounter
+discharge_disposition_id,encounter,Reference to the discharge disposition for the encounter
+admission_source_id,encounter,Reference to the admission source for the encounter
+time_in_hospital,encounter,Length of stay in the hospital (in days)
+payer_code,encounter,Payer code for the encounter
+medical_specialty,encounter,Medical specialty managing the patient during the encounter
+num_lab_procedures,encounter,Number of lab procedures performed during the encounter
+num_procedures,encounter,Number of other procedures performed during the encounter
+num_medications,encounter,Number of medications administered during the encounter
+number_outpatient,encounter,Number of outpatient visits in the patient's history
+number_emergency,encounter,Number of emergency visits in the patient's history
+number_inpatient,encounter,Number of inpatient visits in the patient's history
+diag_1,encounter,Primary diagnosis (ICD code)
+diag_2,encounter,Secondary diagnosis (ICD code)
+diag_3,encounter,Tertiary diagnosis (ICD code)
+number_diagnoses,encounter,Total number of diagnoses during the encounter
+change,encounter,Indicates if the medications were changed (yes/no)
+diabetesmed,encounter,Indicates if diabetes medication was prescribed (yes/no)
+readmitted,lab_results,"Readmission status (e.g., <30 days, >30 days, or no)"
+encounter_id (lab_results),lab_results,Reference to the encounter for the lab result
+test_name,lab_results,Name of the lab test performed
+result_value,medications,Result value of the lab test
+encounter_id (medications),medications,Reference to the encounter for the medication
+medication_name,medications,Name of the medication prescribed/administered
+status,,"Up if the dosage was increased during the encounter, down if the dosage was decreased, steady if the dosage did not change."
