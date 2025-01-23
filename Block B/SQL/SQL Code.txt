@@ -1,0 +1,23 @@
+1A.1 
+1.select COUNT(*) from encounter
+2.select encounter.admission_type_id, COUNT(*) as count from encounter
+group by admission_type_id
+order by count desc;
+3.select encounter.discharge_disposition_id, COUNT(*) as count from encounter
+group by discharge_disposition_id
+order by count desc;
+
+1A.2 1.select count(*) from diabetic_data
+
+select diabetic_data.race, COUNT(*) as count from diabetic_data
+group by race
+order by count desc;
+2.select diabetic_data.weight, COUNT(*) as count from diabetic_data
+group by weight
+order by count desc;
+
+1A.3 select count(*) from diabetic_data
+
+select diabetic_data.age, COUNT(*) as count from diabetic_data
+group by age
+order by count desc;
