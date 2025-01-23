@@ -21,3 +21,27 @@ order by count desc;
 select diabetic_data.age, COUNT(*) as count from diabetic_data
 group by age
 order by count desc;
+
+1A.4 1.select count(*) from encounter
+
+select encounter.admission_source_id, COUNT(*) as count from encounter
+group by admission_source_id
+order by count desc;
+2.select admission_source_id, admission_type_id, COUNT(*) as count from encounter
+group by admission_source_id, admission_type_id
+order by count desc;
+
+1A.5 1.select avg(time_in_hospital), admission_type_id, count(*) from encounter
+group by admission_type_id
+order by count desc;
+2.select readmitted, admission_type_id, count(*) from encounter
+group by admission_type_id, readmitted
+order by count desc;
+
+1A.6 1.select discharge_disposition_id, admission_type_id, count(*) from encounter
+group by discharge_disposition_id, admission_type_id
+order by count desc;
+
+2.select discharge_disposition_id, readmitted, count(*) from encounter
+group by discharge_disposition_id, readmitted
+order by count desc;
