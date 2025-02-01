@@ -1,0 +1,45 @@
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey
+      - Hi there
+      - Hello there
+  - intent: explain_problem
+    examples: |
+      - Someone is bullying me online
+      - I'm being harassed
+      - People are saying mean things to me
+      - I'm being bullied
+      - Someone is being mean to me online
+  - intent: request_advice
+    examples: |
+      - What should I do?
+      - Can you give me advice?
+      - How do I handle this?
+      - I need help
+      - What can I do about this?
+  - intent: request_helpline
+    examples: |
+      - I need help
+      - Can you connect me to a helpline?
+      - This is serious
+      - I need to talk to someone
+      - Can you help me contact a professional?
+  - intent: affirm
+    examples: |
+      - Yes
+      - Sure
+      - Okay
+      - Yeah
+      - Absolutely
+  - intent: deny
+    examples: |
+      - No
+      - Not now
+      - Maybe later
+      - Not really
+      - I'm fine
+  - intent: suicidal
+    examples: |

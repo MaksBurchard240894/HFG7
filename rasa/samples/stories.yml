@@ -1,0 +1,22 @@
+stories:
+  - story: Listen and provide advice
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: explain_problem
+      - action: utter_listen
+      - intent: request_advice
+      - action: utter_advice
+      - intent: affirm
+      - action: utter_affirm
+
+  - story: Redirect to helpline
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: explain_problem
+      - action: utter_listen
+      - intent: request_helpline
+      - action: utter_redirect_helpline
+      - intent: affirm
+      - action: action_redirect_to_helpline

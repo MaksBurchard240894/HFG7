@@ -1,0 +1,71 @@
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey
+      - Hi there
+      - Hello there
+  - intent: explain_problem
+    examples: |
+      - Someone is bullying me online
+      - I'm being harassed
+      - People are saying mean things to me
+      - I'm being bullied
+      - Someone is being mean to me online
+  - intent: request_advice
+    examples: |
+      - What should I do?
+      - Can you give me advice?
+      - How do I handle this?
+      - I need help
+      - What can I do about this?
+  - intent: request_helpline
+    examples: |
+      - I need help
+      - Can you connect me to a helpline?
+      - This is serious
+      - I need to talk to someone
+      - Can you help me contact a professional?
+  - intent: affirm
+    examples: |
+      - Yes
+      - Sure
+      - Okay
+      - Yeah
+      - Absolutely
+  - intent: deny
+    examples: |
+      - No
+      - Not now
+      - Maybe later
+      - Not really
+      - I'm fine
+  - intent: thank
+    examples: |
+      - Thanks
+      - Thank you
+      - I'll try that
+      - Thx
+  - intent: suicidal
+    examples: |
+      - I want to kill myself
+      - I don't want to live anymore
+      - I feel like ending it all
+      - I can't go on like this
+      - I'm thinking about suicide
+      - I want to end my life
+      - I feel like dying
+      - I don't see any point in living
+      - I wish I could just disappear
+      - I'm tired of living
+      - I feel like giving up
+      - I want to hurt myself
+      - I'm having suicidal thoughts
+      - I feel like I can't take it anymore
+      - I want to stop existing
+      - I feel like there's no way out
+      - I'm planning to kill myself
+      - I feel like I'm better off dead
+      - I can't handle this anymore
+      - I want to die

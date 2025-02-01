@@ -1,0 +1,54 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: Listen and provide advice
+  steps:
+  - user: |
+      hello there!
+    intent: greet
+  - action: utter_greet
+  - user: |
+      I'm facing issues with bullying online
+    intent: explain_problem
+  - action: utter_listen
+  - user: |
+      What do I do?
+    intent: request_advice
+  - action: utter_advice
+  - user: |
+      Thanks
+    intent: thank
+  - action: utter_thank_response
+
+
+- story: Emergency
+  steps:
+  - user: |
+      hello
+    intent: greet
+  - action: utter_greet
+  - user: |
+      I want to kill myself
+    intent: suicidal
+  - action: action_redirect_to_helpline
+
+- story: Redirect to helpline 
+  steps:
+  - user: |
+      hello
+    intent: greet
+  - action: utter_greet
+  - user: |
+      I've been having bad thoughts recently
+    intent: explain_problem
+  - action: utter_listen
+  - user: |
+      I'd like to talk to an expert
+    intent: request_helpline
+  - action: utter_redirect_helpline
+    - user: |
+      Yes please
+    intent: affirm
+  - action: action_redirect_to_helpline
+  
