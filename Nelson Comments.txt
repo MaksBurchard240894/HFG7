@@ -1,9 +1,0 @@
-On the question of "How to quickly develop interface":
-- Prototype enough
-- Don't focus on technicality
-- 3 parts: technicality, design, and development & scalability
-
-Focus on prototype
-Mostly based on concepts
-Demo the concept
-That's good enough

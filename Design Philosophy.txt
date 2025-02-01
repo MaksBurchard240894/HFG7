@@ -1,8 +1,0 @@
-Design philosophy:
-Rounded edges, not sharp (comes over more casually)
-Colours (helps with it not looking formal)
-Not too many colours (as that looks childish)
-Warm/happy colours (no blue pls that‘s sad)
-Based off of other models (ChatGPT) so it‘s easy to use
-No picture adding as that could be privacy concern
-Use words like „Talk“ to descibe sending messages to the bot, as that makes it seem like you‘re talking with a bot and not just messaging a machine
