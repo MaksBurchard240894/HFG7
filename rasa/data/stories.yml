@@ -10,14 +10,8 @@ stories:
       - intent: affirm
       - action: utter_affirm
 
-  - story: Redirect to helpline
-    steps:
-      - intent: greet
-      - action: utter_greet
-      - intent: explain_problem
-      - action: utter_listen
-      - intent: request_helpline
-      - action: utter_redirect_helpline
+ 
+      helpline
       - intent: affirm
       - action: utter_confirm_helpline
 
