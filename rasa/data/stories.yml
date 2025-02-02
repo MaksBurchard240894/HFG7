@@ -1,0 +1,23 @@
+stories:
+  - story: Listen and provide advice
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: explain_problem
+      - action: utter_listen
+      - intent: request_advice
+      - action: utter_advice
+      - intent: affirm
+      - action: utter_affirm
+
+ 
+      helpline
+      - intent: affirm
+      - action: utter_confirm_helpline
+
+  - story: Emergency
+    steps: 
+      - intent: greet
+      - action: utter_greet
+      - intent: suicidal
+      - action: utter_confirm_helpline

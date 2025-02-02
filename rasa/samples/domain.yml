@@ -1,0 +1,25 @@
+intents:
+  - greet
+  - explain_problem
+  - request_advice
+  - request_helpline
+  - affirm
+  - deny
+  - suicidal
+
+responses:
+  utter_greet:
+    - text: "Hi there! I'm here to help if you're feeling upset or experiencing online bullying. How can I help you today?"
+  utter_listen:
+    - text: "I'm really sorry to hear that. Can you tell me more about what's happening?"
+  utter_advice:
+    - text: "It's important to not respond to the bully. You can block them and report the behavior to the platform. Would you like more advice on how to handle this?"
+  utter_redirect_helpline:
+    - text: "If this is really serious and you're feeling overwhelmed, I can connect you to a helpline. Would you like me to do that?"
+  utter_affirm:
+    - text: "I'm glad I could help. Remember, you're not alone, and there are people who care about you."
+  utter_deny:
+    - text: "Okay, no problem. If you change your mind, I'm here to help."
+
+actions:
+  - action_redirect_to_helpline
